@@ -1,0 +1,21 @@
+/* sv.wxss */
+@import "../view/view.wxss";
+
+
+.scroll-view-item{
+  height: 100%;
+}
+
+.horView{
+  width: 400%;
+  display: flex;
+  flex-direction: row;
+}
+.scroll-view_H{
+  height: 200rpx;
+}
+
+.scroll-view-item_H{
+  width: 100%;
+  height: 200rpx;
+}

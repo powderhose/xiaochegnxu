@@ -1,0 +1,9 @@
+/* button.wxss */
+.button-hove{
+  background-color: red;
+}
+
+.other-button-hover{
+  background-color: blue;
+}
+

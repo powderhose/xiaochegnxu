@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text catchtap="scrollView">scroll-view</text>
+    <text catchtap="swiper">swiper</text>
+    <text catchtap="movable">movable</text>
+    <text catchtap="icon">icon</text>
+    <text catchtap="text">text</text>
+    <text catchtap="progress">progress</text>
+    <text catchtap="button">button</text>
+    <text catchtap="checkbox">checkbox</text>
+    <text catchtap="form">form</text>
+    <text catchtap="input">input</text>
+    <text catchtap="label">label</text>
+    <text catchtap="picker">picker</text>
+    <text catchtap="pickerView">picker-view</text>
+    <text catchtap="radio">radio</text>
+    <text catchtap="slider">slider</text>
+    <text catchtap="Switch">switch</text>
+    <text catchtap="textarea">textarea</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
